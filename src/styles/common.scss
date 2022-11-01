@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+html,
+body {
+  &::-webkit-scrollbar {
+    width: 0;
+    max-width: 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
